@@ -1,0 +1,28 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: huang
+ * Date: 2018/7/24
+ * Time: 18:43
+ */
+
+define('GOODS_INDUSTRY_TYPE_FOOD', 1); // 餐饮
+define('GOODS_INDUSTRY_TYPE_ENTERTAINMENT', 2); // 娱乐
+define('GOODS_INDUSTRY_TYPE_MALL', 3); // 商超
+define('GOODS_INDUSTRY_TYPE_FASHION_BEAUTY', 4); // 时尚丽人
+define('GOODS_INDUSTRY_TYPE_EDUCATION_HEALTH', 5); // 教育健康
+define('GOODS_INDUSTRY_TYPE_BUSINESS', 6); // 商圈
+define('GOODS_INDUSTRY_TYPE_OTHER', 7); // 其他
+$GLOBALS['__GOODS_INDUSTRY_TYPE'] = [
+    GOODS_INDUSTRY_TYPE_FOOD => '餐饮',
+    GOODS_INDUSTRY_TYPE_ENTERTAINMENT => '娱乐',
+    GOODS_INDUSTRY_TYPE_MALL => '商超',
+    GOODS_INDUSTRY_TYPE_FASHION_BEAUTY => '时尚丽人',
+    GOODS_INDUSTRY_TYPE_EDUCATION_HEALTH => '教育健康',
+    GOODS_INDUSTRY_TYPE_BUSINESS => '商圈',
+    GOODS_INDUSTRY_TYPE_OTHER => '其他'
+];
+
+//服务商品上下架状态
+define('GOODS_STATUS_NORMAL',1);//上架
+define('GOODS_STATUS_CANCEL',2);//下架
