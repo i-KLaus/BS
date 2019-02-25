@@ -21,7 +21,7 @@ use yii\helpers\Html;
                 <img src="<?php echo Yii::getAlias('@web/img/login/pic.png'); ?>" alt="">
             </div>
             <div class="main-r">
-                <h3>登录优选服务商平台</h3>
+                <h3>登录优选运营服务商平台</h3>
                 <form action="<?php echo Url::to(['login']); ?>" class="login-form" id="form" method="post">
                     <input type="hidden" name="_csrf" value="<?php echo Yii::$app -> request -> csrfToken; ?>">
                     <div class="form-group">

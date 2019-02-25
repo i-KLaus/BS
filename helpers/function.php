@@ -67,14 +67,17 @@ function rightval() {
         $controller=strtoupper($controller);
         switch ($controller)
         {
+
             case 'MARKETING-GOODS':$controller=1;break;
             case 'GOODS':$controller=2;break;
             case 'ORDER':$controller=3;break;
             case 'SERVICE':$controller=4;break;
             case 'ACCOUNT':$controller=5;break;
+            case 'INDEX':$controller=6;break;
         }
         if(in_array($controller,$arr))
         {
+
             return true;
         }else{
             echo("<script>parent.location.href='".Url::to(['/goods/list'])."'</script>");

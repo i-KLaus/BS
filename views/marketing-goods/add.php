@@ -318,7 +318,7 @@ use yii\helpers\Url;
                     <input type="hidden" name="store_data" id="store_data">
                     <div class="mt10">
                         <a href="javascript:;" class="btn btn-default js-add-store">添加门店</a>
-<!--                        <a href="#modal" data-toggle="modal" class="btn btn-default js-add-batch-store">批量添加门店</a>-->
+                        <a href="#modal" data-toggle="modal" class="btn btn-default js-add-batch-store">批量添加门店</a>
 
                     </div>
                 </div>

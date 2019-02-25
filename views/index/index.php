@@ -6,7 +6,7 @@ use yii\helpers\Url;
     <div class="qgj-menu">
         <ul class="row">
             <li class="col-xs-2 blue">
-                <h5>服务商数</h5>
+                <h5>运营服务商数</h5>
                 <div class="number"><a href="<?php echo Url::to(['/fws/list']); ?>" class="text-white"><span><?php echo $service['service_num'] ?></span></a></div>
                 <h5><?php echo $service['service_nopass'] ?>个待审核</h5>
             </li>

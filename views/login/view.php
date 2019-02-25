@@ -65,23 +65,23 @@ use yii\helpers\Url;
                 </div>
             </div>
             <div class="item-container">
-                <div class="title">服务商信息</div>
+                <div class="title">运营服务商信息</div>
                 <div class="form-wrapper">
                     <div class="input">
                         <div class="form-text">
-                            <span class="form_title">服务商名称</span>
+                            <span class="form_title">运营服务商名称</span>
                             <span><?php echo $model -> name ?></span>
                         </div>
                     </div>
                     <div class="input">
                         <div class="form-text">
-                            <span class="form_title">服务商注册地址</span>
+                            <span class="form_title">运营服务商注册地址</span>
                             <span><?php echo $model -> address ?></span>
                         </div>
                     </div>
                     <div class="input">
                         <div class="form-text">
-                            <span class="form_title">服务商经营地址</span>
+                            <span class="form_title">运营服务商经营地址</span>
                             <span><?php echo $model -> operating_address ?></span>
                         </div>
                     </div>

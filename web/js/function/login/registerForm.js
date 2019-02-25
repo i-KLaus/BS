@@ -126,16 +126,16 @@ var validate = $("#form").validate({
             equalTo: '两次密码输入不一致'
         },
         name: {
-            required: '请输入服务商名称',
-            maxlength: '服务商名称最多{0}个字'
+            required: '请输入运营服务商名称',
+            maxlength: '运营服务商名称最多{0}个字'
         },
         address: {
-            required: '请输入服务商注册地址',
-            maxlength: '服务商注册地址最多{0}个字'
+            required: '请输入运营服务商注册地址',
+            maxlength: '运营服务商注册地址最多{0}个字'
         },
         operating_address: {
-            required: '请输入服务商经营地址',
-            maxlength: '服务商经营地址最多{0}个字'
+            required: '请输入运营服务商经营地址',
+            maxlength: '运营服务商经营地址最多{0}个字'
         },
         business_license: {
             required: '请上传营业执照'

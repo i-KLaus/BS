@@ -11,7 +11,7 @@ use yii\helpers\Html;
 
 <head>
     <meta charset="utf-8">
-    <title>优选服务商平台</title>
+    <title>优选运营运营服务商平台</title>
     <link rel="icon" href="<?php echo Yii::getAlias('@web/img/favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo Yii::getAlias('@web/css/yx.css'); ?>">
     <script src="<?php echo Yii::getAlias('@web/js/lib/lib.min.js'); ?>"></script>

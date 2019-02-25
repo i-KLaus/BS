@@ -49,20 +49,20 @@ use yii\helpers\Url;
                 </div>
             </div>
             <div class="item-container">
-                <div class="title">服务商信息</div>
+                <div class="title">运营服务商信息</div>
                 <div class="form-wrapper">
                     <div class="input">
-                        <label class="ipt">服务商名称
+                        <label class="ipt">运营服务商名称
                             <input type="text" name="name" placeholder="" value="<?php echo $model -> name ?>">
                         </label>
                     </div>
                     <div class="input">
-                        <label class="ipt">服务商注册地址
+                        <label class="ipt">运营服务商注册地址
                             <input type="text" name="address" placeholder="" value="<?php echo $model -> address ?>">
                         </label>
                     </div>
                     <div class="input">
-                        <label class="ipt">服务商经营地址
+                        <label class="ipt">运营服务商经营地址
                             <input type="text" name="operating_address" placeholder="" value="<?php echo $model -> operating_address ?>">
                         </label>
                     </div>

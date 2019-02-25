@@ -68,7 +68,7 @@ use app\common\util\page;
                 <th>商品服务</th>
                 <th>商户类型</th>
                 <th>状态</th>
-                <th>服务商</th>
+                <th>运营服务商</th>
                 <th>创建时间</th>
                 <th>操作</th>
             </tr>

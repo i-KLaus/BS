@@ -13,7 +13,7 @@ use yii\helpers\Url;
 
 <head>
     <meta charset="<?php echo Yii::$app->charset ?>">
-    <title>优选服务商平台</title>
+    <title>优选运营服务商平台</title>
     <link rel="icon" href="<?php echo Yii::getAlias('@web/img/favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo Yii::getAlias('@web/css/yx.css'); ?>">
     <script src="<?php echo Yii::getAlias('@web/js/lib/lib.min.js'); ?>"></script>
@@ -47,7 +47,7 @@ $right = \Yii::$app->session->get('admin_right'.Yii::$app->user->id);
     <div class="logo"><a href="<?php echo Url::to(['goods/list']); ?>"><img src="<?php echo Yii::getAlias('@web/img/logo.png'); ?>"></a> </div>
     <ul class="list-group list-group-black">
         <?php $controller = Yii::$app -> controller -> id; ?>
-        <li><a href="<?php echo Url::to(['index/index']); ?>" style="display: <?php echo (rightvalidate(RIGHT_INDEX)==true)? 'block':'none'?>" class="list-group-item list-group-item-arrow <?php if(in_array($controller,['index'])){ echo "active";} ?>" ><i class="icon-index h5"></i>首页</a></li>
+        <li><a href="<?php echo Url::to(['index/index']); ?>"  class="list-group-item list-group-item-arrow <?php if(in_array($controller,['index'])){ echo "active";} ?>" ><i class="icon-index h5"></i>首页</a></li>
         <li>
             <a style="display: <?php echo (rightvalidate(RIGHT_MARKETING_GOODS)==true)||(rightvalidate(RIGHT_GOODS)==true)? 'block':'none'?>" href="javascript:;" class="list-group-item list-group-item-arrow <?php if (in_array($controller, ['goods', 'marketing-goods'])) { ?>active<?php } ?>"><i class="icon-server"></i>服务管理</a>
 

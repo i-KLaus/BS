@@ -27,7 +27,7 @@ class BaseController extends Controller {
             echo("<script>window.location.href='".Url::to(['/login/login'])."'</script>");
             die();
         }
-
+        rightval();
         if (!Yii::$app->user->isGuest) {
             $service = ServiceProviders::find()
                 -> where(['id' => $this -> getServerId(), 'flag' => FLAG_YES])

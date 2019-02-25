@@ -40,7 +40,7 @@ $this->title='账号编辑';
                                     <label><input name="right[]" value="<?php echo RIGHT_MARKETING_GOODS;?>" <?php if(in_array(RIGHT_MARKETING_GOODS,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 商户营销</label>
                                 </li>
                                 <li>
-                                    <label><input name="right[]" value="<?php echo RIGHT_GOODS;?>" <?php if(in_array(RIGHT_GOODS,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 服务商品</label>
+                                    <label><input name="right[]" value="<?php echo RIGHT_GOODS;?>" <?php if(in_array(RIGHT_GOODS,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 运营服务商品</label>
                                 </li>
                             </ul>
                         </li>
@@ -56,7 +56,7 @@ $this->title='账号编辑';
                             <a href="javascript:;"><i class="tree-icon_arrow"></i> 系统设置</a>
                             <ul>
                                 <li>
-                                    <label><input name="right[]" value="<?php echo RIGHT_SERVICE_DETAIL;?>" <?php if(in_array(RIGHT_SERVICE_DETAIL,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 服务商信息</label>
+                                    <label><input name="right[]" value="<?php echo RIGHT_SERVICE_DETAIL;?>" <?php if(in_array(RIGHT_SERVICE_DETAIL,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 运营服务商信息</label>
                                 </li>
                                 <li>
                                     <label><input name="right[]" value="<?php echo RIGHT_ACCOUNT;?>" <?php if(in_array(RIGHT_ACCOUNT,$right)){echo 'checked';}?> type="checkbox" class="qkj-checkbox"> 账号管理</label>

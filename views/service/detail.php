@@ -12,11 +12,11 @@ use app\components\widgets\common\IndexTitleWidget;
 
         <h5 class="border-b pb10 mb15"><strong>服务商信息</strong></h5>
         <div class="form-group">
-            <label class="control-label text-dark">服务商名称</label>
+            <label class="control-label text-dark">运营服务商名称</label>
             <div class="control-input"><?php echo $model -> name ?></div>
         </div>
         <div class="form-group">
-            <label class="control-label text-dark">服务商经营地址</label>
+            <label class="control-label text-dark">运营服务商经营地址</label>
             <div class="control-input"><?php echo $model -> operating_address ?></div>
         </div>
         <div class="form-group">

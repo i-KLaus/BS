@@ -18,7 +18,7 @@ use yii\helpers\Url;
         </nav>
 <div class="m-content">
     <div class="qgj-title">
-        <div class="qgj-title_main">服务商管理</div>
+        <div class="qgj-title_main">运营服务商管理</div>
     </div>
     <div class="form-horizontal qgj-form-search">
         <div class="row">
@@ -53,8 +53,8 @@ use yii\helpers\Url;
         <table class="table table-special">
             <thead>
             <tr>
-                <th>服务商编号</th>
-                <th>服务商名称</th>
+                <th>运营服务商编号</th>
+                <th>运营服务商名称</th>
                 <th>状态</th>
                 <th>创建时间</th>
                 <th>操作</th>

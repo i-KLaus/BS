@@ -48,7 +48,7 @@ class LoginController extends BaseController {
             if ($service->status != FWS_STATUS_PASS) {
                 return $this->redirect(['review', 'id' => $service->id]);
             }
-            return $this -> redirect(['goods/list']);
+            return $this -> redirect(['index/index']);
         }
         return $this -> render('login', ['model' => $model]);
     }
@@ -150,7 +150,7 @@ class LoginController extends BaseController {
             -> where(['id' => $id, 'flag' => FLAG_YES])
             -> one();
         if (empty($model)) {
-            Yii::$app -> session -> setFlash('服务商数据不存在');
+            Yii::$app -> session -> setFlash('运营服务商数据不存在');
             return $this -> redirect(['login']);
         }
 
@@ -172,7 +172,7 @@ class LoginController extends BaseController {
             -> where(['id' => $id, 'flag' => FLAG_YES])
             -> one();
         if (empty($model)) {
-            Yii::$app -> session -> setFlash('服务商数据不存在');
+            Yii::$app -> session -> setFlash('运营服务商数据不存在');
             return $this -> redirect(['login']);
         }
 
@@ -287,7 +287,7 @@ class LoginController extends BaseController {
     }
 
     /**
-     *  服务商帐号是否重复
+     *  运营服务商帐号是否重复
      */
     public function actionCheckAccount() {
         $id = $this -> getValue('id');
@@ -306,7 +306,7 @@ class LoginController extends BaseController {
     }
 
     /**
-     *  生成随机服务商编码
+     *  生成随机运营服务商编码
      * @return string
      */
     private function generateCode() {
